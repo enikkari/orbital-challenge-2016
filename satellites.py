@@ -13,7 +13,7 @@ class Node:
 
 earth_radius = 6371
 
-# transforms the given latitude, longitude and altitude of satellite into Cartesian coordinates
+# transforms the given latitude, longitude and altitude (polar coordinates) of satellite into Cartesian coordinates
 # so that earth's center is origo
 def cartesian_coordinates(lat, long, alt):
     psi = math.radians(lat)
